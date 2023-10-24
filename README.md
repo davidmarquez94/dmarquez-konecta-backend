@@ -4,6 +4,7 @@ composer install <br />
 cp .env.example.env<br />
 php artisan key:generate<br />
 php artisan migrate --seed<br /><br />
+Este sistema está en español/inglés, por tanto, no olvide ajustar la variable APP_LANG en el archivo .env (es/en)<br /><br />
 Las rutas de este proyecto son expuestas como webservice, para su posterior consumo en una aplicación desarrollada con Angular (Repositorio adjunto en el correo)<br /><br />
 <h3>Productos</h3>
 GET: /products (Obtiene el listado de todos los productos)
